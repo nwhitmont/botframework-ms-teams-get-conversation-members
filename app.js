@@ -25,6 +25,11 @@ var connector = new builder.ChatConnector({
     appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
+//status route
+server.get('/', function(request, response) {
+    response.send(200, '{"status": "online"}');
+})\
+
 // Listen for messages
 server.post('/api/messages', connector.listen());
 
