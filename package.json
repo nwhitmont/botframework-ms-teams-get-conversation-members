@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "MS Teams example for Bot Framework Node SDK",
   "main": "app.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
   "scripts": {
     "start": "node app.js"
   },
