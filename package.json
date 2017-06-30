@@ -1,0 +1,31 @@
+{
+  "name": "botframework-ms-teams-get-conversation-members",
+  "version": "1.0.0",
+  "description": "MS Teams example for Bot Framework Node SDK",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwhitmont/botframework-ms-teams-get-conversation-members.git"
+  },
+  "keywords": [
+    "botframework",
+    "botbuilder",
+    "msteams"
+  ],
+  "author": "Nils Whitmont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhitmont/botframework-ms-teams-get-conversation-members/issues"
+  },
+  "homepage": "https://github.com/nwhitmont/botframework-ms-teams-get-conversation-members#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "botbuilder": "^3.8.4",
+    "dotenv-extended": "^2.0.1",
+    "restify": "^5.0.0",
+    "swagger-client": "^3.0.16"
+  }
+}
